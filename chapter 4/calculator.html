@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Product Cost Calculator</title>
+</head>
+
+<body><!-- Script 4.1 - calculator.html -->
+	<div>
+		<h1>Calculate Your MPG and Cost of Trip</h1>
+
+		<h2>Enter the information below to see if you are getting good mileage!</h2>
+
+		<form action="calculator.php" method="post">
+
+			<p>Miles Driven: <input type="number" name="miles_driven" required></p>
+
+			<p>Gallons of Gas Used: <input type="number" name="gallons_used" step="0.01" required></p>
+
+			<p>Price per gallon: <input type="number" name="price_per_gallon" step="0.01" required></p>
+
+			<input type="submit" name="submit" value="Calculate the MPG and Cost of the Trip">
+			<br>
+			<input type="reset" value="Clear Form">
+		</form>
+	</div>
+</body>
+
+</html>
